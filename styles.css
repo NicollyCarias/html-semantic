@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  figure {
+    background-color: rgb(80, 72, 72);
+    margin: 0;
+    padding: 20px;
+  }
+  
+  img {
+   width: 400px;
+  }
+
+  nav {
+    position: relative;
+    background-color: rgb(13, 200, 224);
+    padding: 20px;
+  }
+
+  ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 200px;
+    padding-left: 100px;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  article {
+    background-color: rgb(96, 103, 104);
+    color: rgb(12, 245, 109);
+    flex-direction: row;
+    margin: 0;
+    width: 2000px;
+    padding: 20px;
+  }
+
+  article  section{
+    background-color: rgb(32, 37, 37);
+    color: rgb(7, 212, 7);
+    height: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+    padding-top: 20px;
+  }
+
+  aside {
+    background-color: rgb(201, 204, 212); 
+    width: 1200px;
+    padding: 70px;
+    color: rgb(7, 212, 7);
+  }
+
+  aside section {
+    background-color: rgb(84, 87, 97); 
+    margin-top: 20px;
+    padding-top: 40px;
+    width: 1050px;
+    height: 150px;
+  }
+
+  footer {
+    background-color: rgb(42, 66, 75); 
+    padding: 20px;
+    color: rgb(12, 245, 109);
+  }
